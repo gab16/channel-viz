@@ -12,8 +12,8 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= 'Mb5wyAFsKSFOqklETvhdzBM9ogldZzg5L8LMbQu6Uyb21MDg', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1985291377], // Comma separated array of Xively Feed ID numbers
+	var defaultKey		= 'ww2MLWJYsWzbxz8QcDFieFuyCvPrXswJFjmaLqPqyQH97lqR', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1698358418], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Vegitron', // Replaces Xively logo in the header
 		dataDuration	= '180', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
