@@ -363,6 +363,27 @@
 					$('#exampleFeedNotFound').clone().appendTo('#feeds').attr('id', 'feed-' + id).removeClass('hidden');
 					$('#feed-' + id + ' h2').html(id);
 				}
+		// function to calculate local time
+// in a different city
+// given the city's UTC offset
+function calcTime(NY, -5) {
+
+    // create Date object for current location
+    d = new Date();
+
+    // convert to msec
+    // add local time zone offset
+    // get UTC time in msec
+    utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+    // create new Date object for different city
+    // using supplied offset
+    nd = new Date(utc + (3600000*offset));
+
+    // return time as a string
+    return "The local time in " + city + " is " + nd.toLocaleString();
+
+}
 			});
 		});
 	}
