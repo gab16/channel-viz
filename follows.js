@@ -4,7 +4,7 @@
 	FARM DOWN THE ROAD Vegitron feed.
 	*/
 
-	var defaultKey		= 'gTqg4cj_8Cgge9iH0YGV2bYsQ90QvVTtJ4hyAXYcmec', // Unique master Xively API key to be used as a default
+	var defaultKey		= 'ww2MLWJYsWzbxz8QcDFieFuyCvPrXswJFjmaLqPqyQH97lqR', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1698358418], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'VegiTron', // Replaces Xively logo in the header
 		dataDuration	= '180', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
